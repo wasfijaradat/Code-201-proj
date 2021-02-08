@@ -1,0 +1,16 @@
+*{
+    all: none;
+}
+.nav{
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: inline;
+    margin: 10 20 20 10;
+}
+
+.parag{
+    background-color: #8e8e8e
+}
