@@ -69,6 +69,7 @@ else {
     alert('incorrect entry');
 }
 
+
 let score6=0;
 for (let i = 0; i < 4; i++) {
     let userInput6 = prompt('Guess the no of courses we offer?');
