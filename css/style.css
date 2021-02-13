@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,500&display=swap');
-
 *{
     
     margin: 0;
@@ -36,58 +34,3 @@ body{
     
 }
 
-.center {
-    width: 55%;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 60vh;
-    text-align: center;
-    border-radius: 5px;
-
-}
-
-.content{
-    padding: 30px;
-
-}
-
-h1{
-    color: #1e1e1e;
-
-}
-
-.content p{
-    font-weight: lighter;
-    letter-spacing: 1px;
-    width: 70%;
-    margin: 10px auto; 
-    padding: 50px;
-
-}
-div .social i{
-    padding 0 10px;
-    font-size: 30px;
-    color: rgb(26, 2, 130);
-    transition: 04s;
-
-}
-
-div .social i:hover{
-    color: rgba(255, 255, 255, 1);
-    
-}
-
-.btn {
-display: inline-block;
-padding: 1.7rem 4.5rem;
-text-decoration: none;
-background: #1e1e1e;
-font-size: 2rem;
-color: beige;
-border-radius: 10px;
-transition: background 0.5s;
-
-}
-.btn:hover{
-    background: rgba(115, 115, 115, 0.9);
-    
-}
