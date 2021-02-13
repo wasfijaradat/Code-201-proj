@@ -8,27 +8,6 @@ alert(`WELCOME ${userInput8}`);
 
 let score = 0;
 
-// let array1 =['yes','no','y','n']
-// for (let j = 0; j < 3; j++) {
-    
-    // for (let i = 0; i< array1.length; i++) {
-    //     let userInput1= prompt('Are you a degree holder?');
-    //     if (userInput1===array1[i]) {
-    //         alert('good jop');
-            
-    //         break;
-            
-    //     }else{
-    //        alert('try again')
-          
-    //     }
-        
-    // }
-
-    
-    
-//}    
-
 
 function q1() {
   let userInput1 = prompt("Are you a degree holder?");
@@ -39,8 +18,8 @@ function q1() {
 
   } else if (userInput1 === "no" || userInput1 === "no") {
     /*the user entry is flase*/ alert(
-      "Unfortunately, you need to be a degree holder"
-    );
+    "Unfortunately, you need to be a degree holder"
+  );
   } /*the user entry doesnt match*/ else {
     alert("incorrect entry");
   }
@@ -133,7 +112,7 @@ function q6() {
     } else {
       alert("wrong entry");
     }
-    
+
   }
   alert("we offer 10 programming courses");
   return;
@@ -181,7 +160,7 @@ function q7() {
 
         score++;
 
-        alert(' good guess! you took '+ score +  ' correct answers ' );
+        alert(' good guess! you took ' + score + ' correct answers ');
         break;
       }
     }
